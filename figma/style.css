@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    margin: 91px 150px 257px 124px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    max-width: 80.9vw;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 13.1vw;
+   }
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 80.9vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.5vw;
+    height: 14.4vw;
+}
+.words{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 6.59vw;
+    align-items: center;
+    padding-right: 17.3vw;
+}
+.child2{
+    padding-top: 0.69;
+}
+.child2 b{
+    color: #000;
+font-family: Roboto;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 32.5px */
+}
+.child2 p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+}
+.child{
+    width: 45.9vw;
+    font-size: 1.6vw;
+font-family: "Roboto";
+font-weight: 400;
+color: rgba(0, 0, 0, 1);
+height: 25.9vw;
+}
+h1{
+    font-size: 3.8vw;
+font-family: "Roboto Slab";
+font-weight: 700;
+color: rgba(0, 0, 0, 1);
+width: 34.7vw;
+height: 6.4vw;
+}
+.photo1{
+width:23.8vw;
+height:26.1vw;
+margin-top: 6.9vw;
+}
+
+.photo2{
+width:16.1vw;
+height:16.1vw;
+margin-top: 6.25;
+}
+@media (min-width: 375px) and (max-width:834px){
+    .photo2{
+     display: none;
+        }
+        .photo1{
+            width:21.7vw;
+            height:21.8vw;
+            }
+            .header{
+                max-width: 95vw;
+                gap: 5.1vw;
+               }
+            .child{
+                width: 45vw;
+                height: 25.8vw;
+                font-size: 1.2vw;
+            }
+}
+@media (min-width: 0px) and (max-width:375px){
+    .photo2{
+     display: none;
+        }
+        .photo1{
+            width:17.7vw;
+            height:17.8vw;
+            }
+            .header{
+                max-width: 80vw;
+                gap: 5.1vw;
+                flex-direction: column;
+               }
+            .child{
+                width: 45vw;
+                height: 25.8vw;
+            }
+         
+}
